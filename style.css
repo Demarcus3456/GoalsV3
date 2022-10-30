@@ -78,3 +78,30 @@ a:link {
     background: url(https://media.giphy.com/media/l0HlGdXFWYbKv5rby/giphy.gif);
     background-repeat: no-repeat;
 }
+
+@media(max-width: 765px) {
+    body {
+        background-color: rgb(6, 130, 255);
+    }
+
+    .header {
+        width: auto;
+    }
+
+    .goals,
+    .goalsv2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .career,
+    .money,
+    .personal,
+    .social,
+    .spirit {
+        width: auto;
+        margin: 15px;
+    }
+}
