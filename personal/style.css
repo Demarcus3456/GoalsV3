@@ -18,7 +18,12 @@ a:visited {
 
 h1 {
     text-align: center;
+<<<<<<< Updated upstream
     font-size: 70px;
+=======
+    font-size: 100px;
+    width: 100%;
+>>>>>>> Stashed changes
 }
 
 .container {
