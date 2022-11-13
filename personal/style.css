@@ -22,6 +22,27 @@ h1 {
     width: 100%;
 }
 
+/* Menu */
+.menu {
+    border: 3px solid black;
+    background-color: aqua;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    padding: 5px;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
 .container {
     display: flex;
     justify-content: space-evenly;
@@ -47,6 +68,17 @@ h1 {
 .swiper {
     width: 100%;
     height: fit-content;
+
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    color: white;
+    border-bottom: 2px solid gold;
 }
 
 .swiper-slide img {
@@ -106,8 +138,13 @@ h1 {
 
 .steps {
     border: 3px solid green;
-    width: 150px;
+    width: auto;
     height: auto;
+}
+
+.time {
+    text-align: center;
+    font-size: 25px;
 }
 
 .line {

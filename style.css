@@ -27,7 +27,7 @@ a:link {
     display: inline-block;
     padding: 0px 20px;
     font-size: 50px;
-    width: 100%;
+    width: 96%;
     background-color: greenyellow;
 }
 
@@ -35,7 +35,7 @@ a:link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0px;
+    margin-top: 5px;
 }
 
 .goalsv2 {
