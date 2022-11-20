@@ -32,20 +32,48 @@
                         <div class="tasks">
                             <div class="homework">
                                 <h2>Homework</h2>
-                                <div class="wrapper side-panel-open">
-                                    <button class="side-panel-toggle" type="button"><span
-                                            class="material-symbols-outlined sp-icon-open">
-                                            keyboard_double_arrow_up
-                                        </span><span class="material-symbols-outlined sp-icon-close">
-                                            keyboard_double_arrow_down
-                                        </span></button>
-                                    <div class="side-panel">
-                                        <a
-                                            href="https://www.dropbox.com/scl/fo/dxclrbp2khzl8q8t887y9/h?dl=0&rlkey=hz4l8x2b0ggnlibgucn4js4wj"><span>WATCH</span>
-                                            Gym Section</a>
-                                        <button> Click Me </button>
 
+                                <div class="container">
+
+                                    <button class="click">Week 1</button>
+
+                                    <div class="list">
+
+                                        <button class="links"><a class="popup-trigger" data-target="#popup1">Gym
+                                            </a></button>
+
+                                        <button class="links"><a class="popup-trigger"
+                                                data-target="#popup2">Fashion</a></button>
+
+                                        <button class="links"><a class="popup-trigger"
+                                                data-target="#popup2">Instagram</a></button>
                                     </div>
+
+                                </div>
+
+                                <div id="popup1" class="popup">
+                                    <div class="popup-text">
+                                        <h1>Tasks</h1>
+                                        <ol>
+                                            <li>
+                                                <a
+                                                    href="https://www.dropbox.com/scl/fo/dxclrbp2khzl8q8t887y9/h?dl=0&rlkey=hz4l8x2b0ggnlibgucn4js4wj">Watch
+                                                    gym
+                                                    videos</a>
+                                            </li>
+                                            <li>
+                                                <p>Create gym section in personal development</p>
+                                            </li>
+                                            <li>
+                                                <p>Find a gym</p>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                    <span class="popup-btn-close">&times;</span>
+                                </div>
+                                <div id="popup2" class="popup">
+                                    <div class="popup-text">This is my popup 2</div>
+                                    <span class="popup-btn-close">&times;</span>
                                 </div>
                             </div>
                             <div class="homework">
@@ -243,12 +271,12 @@
             </div>
             <a class="pic" href="photos.html" style="--clr:#1e9bff"><span>Photos</span><i></i></a>
         </div>
-
-        <script src="script.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"></script>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
