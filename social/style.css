@@ -5,6 +5,7 @@
 
 body {
     background-color: rgb(255, 0, 0);
+    text-align: center;
 }
 
 img {
@@ -16,7 +17,6 @@ a {
 }
 
 .container {
-    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;

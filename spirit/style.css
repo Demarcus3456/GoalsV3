@@ -7,3 +7,31 @@ body {
     background-color: aqua;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    overflow-y: scroll;
+}
