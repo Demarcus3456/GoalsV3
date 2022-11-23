@@ -149,5 +149,8 @@ h1 {
 
 .line {
     border-bottom: 2px solid black;
-    ;
+}
+
+#reading {
+    text-align: center;
 }
